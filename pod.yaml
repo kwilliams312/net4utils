@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: pod
+  name: netutils
+spec:
+  containers:
+  - args:
+    - net4util
+    image: kwill/net4util 
+    name: pod
+    securityContext:
+      allowPrivilegeEscalation: false
+  dnsPolicy: ClusterFirst
