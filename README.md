@@ -48,7 +48,6 @@ a simple kubernetes pod yaml is included, to run wireshark you need to set the p
  - ping: `ping`
  - ssh: `ssh`
  - telnet: `telnet`
- - tracepath: `traces path to a network host discovering MTU along this path`
  - traceroute: `print the route packets trace to network host`
  - tshark: `terminal wireshark`
  - wget: `similar to curl, cli based url data transfer tool`

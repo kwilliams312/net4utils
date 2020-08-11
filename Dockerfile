@@ -21,6 +21,7 @@ RUN apt-get install -yq iputils-ping
 RUN apt-get install -yq iputils-tracepath 
 RUN apt-get install -yq mtr 
 RUN apt-get install -yq net-tools 
+RUN apt-get install -yq ssh
 RUN apt-get install -yq netcat 
 RUN apt-get install -yq nload 
 RUN apt-get install -yq socat 
