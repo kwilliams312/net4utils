@@ -19,14 +19,18 @@ RUN apt-get install -yq iputils-arping
 RUN apt-get install -yq iputils-clockdiff 
 RUN apt-get install -yq iputils-ping 
 RUN apt-get install -yq iputils-tracepath 
+RUN apt-get install -yq iptraf-ng
+RUN apt-get install -yq nmap
+RUN apt-get install -yq fping
 RUN apt-get install -yq mtr 
 RUN apt-get install -yq net-tools 
-RUN apt-get install -yq ssh
 RUN apt-get install -yq netcat 
 RUN apt-get install -yq nload 
+RUN apt-get install -yq sipcalc
 RUN apt-get install -yq socat 
+RUN apt-get install -yq ssh
 RUN apt-get install -yq tcpdump 
 RUN apt-get install -yq telnet 
 RUN apt-get install -yq traceroute 
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq tshark 
 RUN apt-get install -yq wget 
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq tshark
